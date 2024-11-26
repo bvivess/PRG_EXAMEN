@@ -56,7 +56,6 @@ public class Main {
             SIMBOL_NEGRE -> " : "
             SIMBOL_PEO -> " Z "
             SIMBOL_COSTAT -> " | "
-
          */
         
     }
