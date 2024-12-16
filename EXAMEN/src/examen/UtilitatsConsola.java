@@ -47,17 +47,12 @@ public class UtilitatsConsola {
      * @return La cadena escrita per l'usuari
      */
     public static char llegirCar(String prompt) {
+        Scanner scanner = new Scanner(System.in);
         char car;
-        try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print(prompt);
-            if (scanner.hasNext()) {
-                car = scanner.next().charAt(0);
-            } else {
-                // Manejo de error o valor predeterminado en caso de que no haya entrada.
-                car = 'X'; // Por ejemplo, devolver un espacio en blanco.
-            }
-
-        } 
+        
+        System.out.print(prompt);
+        car = scanner.next().charAt(0); 
+        //scanner.close();
         return car;
     }
 
