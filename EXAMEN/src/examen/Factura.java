@@ -1,5 +1,0 @@
-package examen;
-
-class Factura {
-    
-}
