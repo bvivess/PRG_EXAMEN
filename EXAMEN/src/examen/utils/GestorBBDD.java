@@ -1,4 +1,4 @@
-package examen;
+package examen.utils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -29,7 +29,7 @@ public class GestorBBDD {
                     
                         switch (clau) {
                             case "SERVER", "DBASE", "USER", "PASSWD" -> valorsConnexio.put(clau, valor);
-                            default -> System.err.println("Clau no valida en arxiu de connexio: " + clau);
+                            default -> System.err.println("Clau no vàlida en arxiu de connexió: " + clau);
                         }
                     }
                 } catch (IndexOutOfBoundsException e) {
@@ -38,10 +38,10 @@ public class GestorBBDD {
                 }
             }
             if (valorsConnexio.size() != 4)
-                throw new SQLException("L'arxiu no contemple totes les dades de connexiï¿½");
+                throw new SQLException("L'arxiu no contemple totes les dades de connexió");
         } catch (IOException e) {
             System.err.println("Error llegint l'arxiu: " + e.getMessage());
-            throw e;  // Es propaga l'excepciï¿½ al mï¿½tode anterior
+            throw e;  // Es propaga l'excepció al mètode anterior
         }
 
         // Estableix la connexiï¿½ a la BD Mysql
@@ -57,7 +57,7 @@ public class GestorBBDD {
             
             return stmt.executeQuery();
         } catch (SQLException e) {
-            throw e;  // Es propaga l'excepciï¿½ al mï¿½tode anterior
+            throw e;  // Es propaga l'excepció al mètode anterior
         }
     }
     
