@@ -8,7 +8,7 @@ public class EX_2 {
         int[] array2;  // 'array' de 10 posicions de manera aleatòria amb números aleatoris entre 0 i 9
         ArrayList<Integer> resultat;  // 'arraylist' resultant
         
-        // Crea 2 'Array' de 10 posicions de manera aleatòria amb números aleatoris entre 0 i 9
+        // Crea 2 'Array' de 10 posicions amb números aleatoris entre 0 i 9
         
         // Calcula l''ArrayList' emprant el mètode 'obteRepetits' 
         

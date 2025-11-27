@@ -11,7 +11,7 @@ public class EX_4 {
         
         // Calcula l''ArrayList' emprant el mètode 'obteRepetitsOrdenat'
         //   NOTA: el mètode 'obteRepetitsOrdenat' pot servir-se dels mètodes anteriors:
-        //         'obteRepetits' ? 'arrayListToArray' ? 'ordenaArray'
+        //         'obteRepetits' -> 'arrayListToArray' -> 'ordenaArray'
         
         // Mostra l''ArrayList' resultant
         
