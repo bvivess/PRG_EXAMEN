@@ -1,6 +1,6 @@
-package EXAMEN;
+package PROVA;
 
-import examen.UtilExamen;
+import PROVA.UtilExamen;
 import java.util.ArrayList;
 
 
